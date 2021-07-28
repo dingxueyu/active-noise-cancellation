@@ -1,15 +1,42 @@
-#include "L138_LCDK_aic3106_init.h"
-#include "readme.cof"
+// #include "L138_LCDK_aic3106_init.h"
+// #include "readme.cof"
 
-#define mu 1E-11 // learning rate
-#define N 128 // length of delay line/adaptive filter
-#define NUM_SECTIONS 128 // number of weights in synthetic transfer functino
+
+#include"aic3106_init.h"
+#include"readmecof"
+
+#define mu 1E-11//learing rate
+#define 
+#define 
+
+float weight[N];
+float
+float
+
+
+// #define mu 1E-11 // learning rate
+// #define N 128 // length of delay line/adaptive filter
+// #define NUM_SECTIONS 128 // number of weights in synthetic transfer functino
+
+
+
+
+
+
+
 
 AIC31_data_type codec_data;
 
 float weights[N]; // adaptive filter weights
 float x[N]; //  delay line
 float w[NUM_SECTIONS][2]; // synthetic transfer functino weights
+
+
+
+interrupt void interrupt4(void)
+{
+	for
+}
 
 interrupt void interrupt4(void)
 {
